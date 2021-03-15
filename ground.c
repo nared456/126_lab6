@@ -6,7 +6,7 @@ int main()
     long long ground[h][w];
     for(i=0;i<h;i++)
     {
-        for(j=0;i<w;j++)
+        for(j=0;j<w;j++)
         {
             scanf("%lld",&ground[i][j]);
         }
@@ -14,9 +14,9 @@ int main()
     max = ground[0][0];
     for(i=0;i<h;i++)
     {
-        for(j=0;i<w;j++)
+        for(j=0;j<w;j++)
         {
-            sum += ground[i][j];
+            sum = sum + ground[i][j];
         }
     }
     f = sum;

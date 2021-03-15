@@ -19,14 +19,14 @@ int main()
             {
                 check[i-1]++;
             }
-            else if(j==people_vote_y[j])
+            else if(i==people_vote_y[j])
             {
                 check[i-1]++;
             }
         }
     }
     min = check[0];
-    for(k = 0; i<student; i++)
+    for(k = 0; k<student; k++)
     {
         if(check[k] > max)
         {
